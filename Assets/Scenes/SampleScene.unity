@@ -1495,6 +1495,7 @@ GameObject:
   - component: {fileID: 756819306}
   - component: {fileID: 756819309}
   - component: {fileID: 756819310}
+  - component: {fileID: 756819311}
   m_Layer: 6
   m_Name: PKnight
   m_TagString: Knight
@@ -1693,6 +1694,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   owo: {fileID: 1430289284}
   attackSpeed: {fileID: 756819304}
+--- !u!114 &756819311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756819301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7387f02a1708244296a4370c3282e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &777408850
 GameObject:
   m_ObjectHideFlags: 0
